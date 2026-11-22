@@ -41,16 +41,15 @@ The Contact Page was tested in the browser for layout, navigation, and responsiv
 ### Tasmia Syed
 - Developed the Contact Page (`contact.html`).
 - Added Contact Page styling to the shared `css/style.css`.
-- Created the contact information section and contact form.
 - Tested the Contact Page in the browser.
 - Submitted changes through GitHub commits and a Pull Request.
 
 ### Maryam Imran
-- Developed the Home Page (`index.html`).
+- Developed the Home Page (`index.html`)
+-  Handled the initial project setup.
 
 ### Fatima Nadeem
 - Developed the Societies Page (`societies.html`).
-- Handled the initial project setup.
 
 ### Farhan
 - Developed the Events Page (`events.html`).
