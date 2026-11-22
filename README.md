@@ -47,9 +47,19 @@ The Contact Page was tested in the browser for layout, navigation, and responsiv
 ### Maryam Imran
 - Developed the Home Page (`index.html`)
 -  Handled the initial project setup.
+-  Designed the homepage layout and sections.
+-  Added navigation links to the homepage.
+-  Worked on the visual presentation of the homepage.
 
 ### Fatima Nadeem
 - Developed the Societies Page (`societies.html`).
+- Developed the Societies Page (societies.html).
+- Designed the societies section layout.
+- Organized society details into separate sections.
 
 ### Farhan
-- Developed the Events Page (`events.html`).
+- Developed the Events Page (`events.html`)
+- Designed the events listing layout.
+- Added event information and content.
+- Organized event sections for better readability.
+
