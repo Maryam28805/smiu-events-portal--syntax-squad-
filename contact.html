@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SMIU Events Portal</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark contact-navbar">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+            <i class="bi bi-calendar-event"></i> SMIU Events
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="societies.html">Societies</a></li>
+                <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+
+<main>
+
+<!-- Hero Section -->
+<section class="contact-hero text-center">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Have questions or need assistance? We are here to help!</p>
+    </div>
+</section>
+
+<!-- Contact Information and Form -->
+<section class="container contact-section">
+    <div class="row g-4">
+
+        <!-- Office Details -->
+        <div class="col-lg-5">
+            <div class="contact-info h-100">
+                <h2>Get In Touch</h2>
+                <p>Connect with the SMIU Student Affairs Office for information about university events and societies.</p>
+
+                <div class="info-item">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <div>
+                        <h5>Our Location</h5>
+                        <p>Sindh Madressatul Islam University, Karachi, Pakistan</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="bi bi-envelope-fill"></i>
+                    <div>
+                        <h5>Email Address</h5>
+                        <p>studentaffairs@smiu.edu.pk</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="bi bi-telephone-fill"></i>
+                    <div>
+                        <h5>Phone Number</h5>
+                        <p>Contact Student Affairs Office</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="bi bi-clock-fill"></i>
+                    <div>
+                        <h5>Office Hours</h5>
+                        <p>Monday - Friday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <p>Fill out the form below and share your questions with us.</p>
+
+                <form action="#" method="post">
+
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName"
+                            name="fullName" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email"
+                            name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject"
+                            name="subject" placeholder="Enter message subject" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" name="message"
+                            rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn contact-btn">
+                        Send Message <i class="bi bi-send-fill"></i>
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Map Placeholder -->
+<section class="container map-section">
+    <h2 class="text-center mb-4">Find Our Campus</h2>
+    <div class="map-placeholder" role="img"
+        aria-label="Map placeholder showing the location of Sindh Madressatul Islam University in Karachi">
+        <i class="bi bi-geo-alt-fill"></i>
+        <h4>SMIU Campus</h4>
+        <p>Karachi, Pakistan</p>
+    </div>
+</section>
+
+<!-- Meet The Team -->
+<section class="team-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2>Meet Our Team</h2>
+            <p>Meet the students behind the SMIU Events Portal.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Team Member 1 -->
+            <div class="col-sm-6 col-lg-3">
+                <div class="team-card">
+                    <img src="https://i.pravatar.cc/300?img=47"
+                        alt="Profile photo of Team Member 1">
+                    <h5>Member 1</h5>
+                    <p>Roll No: Add Roll Number</p>
+                    <span>Team Lead</span>
+                </div>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="col-sm-6 col-lg-3">
+                <div class="team-card">
+                    <img src="https://i.pravatar.cc/300?img=12"
+                        alt="Profile photo of Team Member 2">
+                    <h5>Member 2</h5>
+                    <p>Roll No: Add Roll Number</p>
+                    <span>Web Developer</span>
+                </div>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="col-sm-6 col-lg-3">
+                <div class="team-card">
+                    <img src="https://i.pravatar.cc/300?img=44"
+                        alt="Profile photo of Team Member 3">
+                    <h5>Member 3</h5>
+                    <p>Roll No: Add Roll Number</p>
+                    <span>Web Developer</span>
+                </div>
+            </div>
+
+            <!-- Team Member 4 -->
+            <div class="col-sm-6 col-lg-3">
+                <div class="team-card">
+                    <img src="https://i.pravatar.cc/300?img=32"
+                        alt="Profile photo of Team Member 4">
+                    <h5>Member 4</h5>
+                    <p>Roll No: Add Roll Number</p>
+                    <span>Web Developer</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="contact-footer">
+    <div class="container text-center">
+        <h4>SMIU Events Portal</h4>
+        <p>Connecting Students Through Events and Societies.</p>
+        <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <hr>
+        <p class="mb-0">&copy; 2026 SMIU Events Portal. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
