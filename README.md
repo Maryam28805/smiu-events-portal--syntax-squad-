@@ -31,7 +31,7 @@ The Contact Page was tested in the browser for layout, navigation, and responsiv
 
 | No. | Student Name | Roll Number | Assigned Work |
 |---|---|---|---|
-| 1 | Tasmia Syed | BASE-24S-094 | Contact Page (`contact.html`) |
+| 1 | Tasmia Syed | BSE-24S-094 | Contact Page (`contact.html`) |
 | 2 | Maryam Imran | BSE-24S-058 | Home Page (`index.html`) |
 | 3 | Fatima Nadeem | BSE-24S-049 | Societies Page (`societies.html`) and Project Setup |
 | 4 | Farhan | BSE-24S-097 | Events Page (`events.html`) |
