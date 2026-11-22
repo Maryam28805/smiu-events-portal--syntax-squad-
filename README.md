@@ -26,3 +26,31 @@ Each team member contributed to assigned pages and collaborated through GitHub b
 
 ## Testing
 The Contact Page was tested in the browser for layout, navigation, and responsiveness.
+
+## 2. Group Members and Responsibilities
+
+| No. | Student Name | Roll Number | Assigned Work |
+|---|---|---|---|
+| 1 | Tasmia Syed | BASE-24S-094 | Contact Page (`contact.html`) |
+| 2 | Maryam Imran | BSE-24S-058 | Home Page (`index.html`) |
+| 3 | Fatima Nadeem | BSE-24S-049 | Societies Page (`societies.html`) and Project Setup |
+| 4 | Farhan | BSE-24S-097 | Events Page (`events.html`) |
+
+## 5. Individual Member Contributions
+
+### Tasmia Syed
+- Developed the Contact Page (`contact.html`).
+- Added Contact Page styling to the shared `css/style.css`.
+- Created the contact information section and contact form.
+- Tested the Contact Page in the browser.
+- Submitted changes through GitHub commits and a Pull Request.
+
+### Maryam Imran
+- Developed the Home Page (`index.html`).
+
+### Fatima Nadeem
+- Developed the Societies Page (`societies.html`).
+- Handled the initial project setup.
+
+### Farhan
+- Developed the Events Page (`events.html`).
